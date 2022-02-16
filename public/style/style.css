@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+/*stilo navbar*/
+.header-burguer-menu {
+    display: flex;
+    justify-content:space-between;
+}
+.nav-bar {
+    display: contents;
+    position: absolute;
+    margin: auto;
+}
+.titulo-tripu {
+    font-family: 'Viga', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 140px;
+}
+.nav-bar ul {
+    display: flex;
+    padding: 5px;
+    width: 90%;
+    justify-content:space-evenly;
+    background-color: rgb(51, 159, 255, 0.4);
+    opacity: 0;
+}
+.nav-bar ul li {
+    color: #04437B;
+    list-style: none;
+    border-radius: 5px;
+}
+.header-burguer-menu a{
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(51, 159, 255);
+    position: relative;
+}
+/*estilo body*/
+.albumes li a img {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.albumes li p {
+    text-align: center;
+}
+.albumes li {
+    margin-bottom: 5vw;
+}
+article {
+    border-top: 1px solid rgb(51, 159,255);
+}
+.name-section {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.item-videos li{
+    margin-left: 12vw;
+    list-style: none;
+    margin-bottom: 5vw;
+}
+.description-breve{
+    margin: auto;
+    text-align: center;
+}
+.bio-tripu img {
+    display: block;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 15px;
+}
+.bio-tripu {
+    position: relative;
+}
+.bio-tripu-hijo {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+.enlace-bio {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(51, 159, 255);
+}
+/*estilo footer*/
+footer {
+    border-top: 1px solid rgb(51, 159, 255);
+    height: 100px;
+    background-color:rgb(51, 159, 255);
+    margin-top: 15px;
+}
+.contact ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.iconos-redes li{
+    list-style: none;
+}
+.iconos-redes li a{
+    color: white;
+    font-size: 20px;
+}
