@@ -41,9 +41,12 @@
     position: relative;
 }
 /*estilo body*/
+.albumes{
+    list-style: none;
+}
 .albumes li a img {
     display: block;
-    width: 70%;
+    width: 60vw;
     margin: auto;
 }
 .albumes li p {
@@ -54,6 +57,7 @@
 }
 article {
     border-top: 1px solid rgb(51, 159,255);
+    padding-bottom: 10px;
 }
 .name-section {
     margin: auto;
@@ -91,10 +95,25 @@ article {
     font-size: 20px;
     color: rgb(51, 159, 255);
 }
+.videos {
+    padding-bottom: 10px;
+}
+.ver-mas-btn {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(51, 159, 255);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+.ver-mas-a {
+    text-decoration: none;
+}
+
 /*estilo footer*/
 footer {
     border-top: 1px solid rgb(51, 159, 255);
-    height: 100px;
     background-color:rgb(51, 159, 255);
     margin-top: 15px;
 }
@@ -113,4 +132,129 @@ footer {
 .iconos-redes li a{
     color: white;
     font-size: 20px;
+}
+.foot-bottom {
+    text-align: center;
+    color: #04437B;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*Estilo Biografía*/
+.titulo-bio {
+    text-align: center;
+}
+.bio-img {
+    padding: 10px;
+}
+.bio-img img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.bio-parrafo {
+    text-align: justify;
+    padding: 15px;
+}
+.nombre-proyecto{
+    position: absolute;
+    bottom: -93vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(51, 159, 255, 0.4);
+}
+.parrafo h3 {
+    text-align: end;
+    padding-right: 15px;
+}
+.fotos-bio {
+    margin-top: 10vh;
+}
+.fotos-bio img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.onda {
+    display: none;
+}
+@media (min-width: 768px){
+    /* estilo body */
+    .titulo-tripu{
+        left: 74vw;
+    }
+    .albumes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .albumes li a img{
+        width: 30vw;
+    }
+    iframe {
+        width: 90%;
+        height: 60vh;
+    }
+    .enlace-bio{
+        font-size: 30px;
+    }
+    /* estilo biografia */ 
+    .bio-tripu img {
+        height: 150vh;
+    }
+    .bio-tripu-hijo {
+        top: 10vh;
+        left: 40vw;
+    }
+    .bio-row {
+        display: flex;
+        flex-flow: row-reverse ;
+    }
+    .titulo-bio {
+        display: none;
+    }
+    .parrafo {
+        margin-top: 15vh;
+    }
+    .bio-img{
+        margin-top: 5vh;
+    }
+    .bio-img img {
+        box-shadow: 1px 1px 10px rgba(107, 127, 133, 8);
+        width: 90%;
+    }
+    .nombre-proyecto{
+        display:block;
+        position: absolute;
+        bottom: -20vh;
+        width: 100%;
+        background-color: rgba(51, 159, 255, 0.4);
+        text-align: center;
+    }
+    .fotos-bio{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .fotos-bio img {
+        width: 40vw;
+        box-shadow: 1px 1px 10px rgba(107, 127, 133, 8);;
+    }
+    .onda {
+        display: block;
+        position: absolute;
+        right: 60vw;
+        top: 55vh;
+    }
+    .onda img {
+        width: 40vw;
+        height: 20vh;
+    }
+    /* estilo footer */
+    footer{
+        background-color: rgb(107, 127, 133);
+        border-top: none;
+    }
+}
+@media (min-width: 1024px) {
+    
 }
